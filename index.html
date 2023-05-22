@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Jan Agar Barotilla | IT Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+</head>
+<body>
+
+    <section id="home"></section>
+    
+<header>
+    <label id="dark-change"></label>
+</header>
+
+    <div class="intro">
+<h1 class="logo-header">
+    <span class="logo">loa</span><span class="logo">ding.</span>
+</h1>
+    </div>
+
+
+<script src="app.js"></script>
+
+
+    <style>
+        body{
+  background: linear-gradient(to bottom, #f1ece5, #ff6600);
+}
+    </style>
+<div>
+    <h1 class="it-stud">
+        Jan Agar Barotilla 
+    </h1>
+
+    <h2 class="soft">
+        Aspiring <b class="sof" > Software Engineer  </b> | Grade 11 Student
+    </h2>
+    <img class="bg" src="bg.jpg">
+</div>
+
+<div>
+    <p class="parag" >
+        Discover my creative journey and portfolio, <br> showcasing my passion and dedication <br> to a full-stack developer.
+    </p>
+</div>
+
+<div>
+    <h1 class="css" >CSS</h1>
+    <h1 class="java" >JAVA</h1>
+    <h1 class="js" >JAVASCRIPT</h1>
+    <h1 class="cplus" >C++</h1>
+    <h1 class="html" >HTML</h1>
+</div>
+
+<div class="sidebar">
+    <ul>
+        <li><a href="#home" class="expi" onclick="scrollToSection('home')" >Home</a></li>
+        <li><a href="#expi" class="expi"  onclick="scrollToSection('expi')">My Courses</a></li>
+        <li><a href="#cert" class="about-me" onclick="scrollToSection('cert')">Certificates</a></li>
+        <li><a href="#socialmedia" class="socialmedia" onclick="scrollToSection('socialmedia')">Social Media</a></li>       
+    </ul>
+</div>
+
+<button id="toggle-sidebar"><i class="menu">=</i></button>
+
+<script>
+    const toggleBtn = document.getElementById('toggle-sidebar');
+const sidebar = document.querySelector('.sidebar');
+
+toggleBtn.addEventListener('click', () => {
+  sidebar.classList.toggle('active');
+  if (sidebar.classList.contains('active')) {
+    toggleBtn.innerText = 'X';  
+  } else {
+    toggleBtn.innerText = '☰';
+  }
+});
+</script>
+
+<section id="expi">
+	<h2>My Courses</h2>
+</section>
+
+
+
+
+<div class="box1"> </div>
+<div class="box2"> <img src="c++.png"> <h1>C++</h1> <h2>In Progress</h2> </div>
+<div class="box3"> <img src="js.png"><h1>JavaScript</h1> <h2>In Progress</h2> </div>
+
+<div class="prog">
+    <img class="java-pic" src="java.png">
+    <h1>Java<br></h1>
+    <br>
+    <h2>
+        In Progress
+    </h2>
+  
+</div>
+
+
+<section id="cert">
+
+    <div class="cert">
+<h1> My Certificates </h1>
+
+
+<div class="container">
+    <div class="box">
+       <img src="online colla.png">
+    </div>
+    <div class="box">
+        <img src="Cyber Security.png">
+     </div>
+     <div class="box">
+        <img src="info.png">
+     </div>
+</div>
+
+
+</section>
+
+
+<section id="socialmedia">
+ 
+    <div class="social-media">
+        <a target="_blank" href="https://web.facebook.com/y0baka/">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/gelatinous_agar">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/gelatinous_agar/">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
+</section>
+
+<section id="comments">
+    <div class="testimonials-container">
+        <h2>Testimonials</h2>
+        <div class="testimonial-card">
+          <img src="jul.jpg" alt="Client's profile picture">
+          <div class="testimonial-text">
+            <p>"I really like this website. Good job, Agar! More of this pleasee🤩"</p>
+            <h3>Julianne Gabas</h3>
+            <span>Grade 11 student | STEM </span>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
